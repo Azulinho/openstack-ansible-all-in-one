@@ -45,5 +45,5 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
      vb.cpus = "4"
   end
 
-  config.vm.provision "shell", inline => $script
+  config.vm.provision "shell", :inline => $script
 end
